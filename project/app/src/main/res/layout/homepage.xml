@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/homepagell"
+
+    android:id="@+id/hpm">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/images"
+        tools:ignore="Suspicious0dp" />
+
+    <EditText
+            android:id="@+id/uid"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="User_id"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+        tools:ignore="Suspicious0dp" />
+
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        tools:ignore="Suspicious0dp" />
+
+
+
+    <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Log in"
+        tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/fpwd"
+
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="forgot password?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Sign up"
+            tools:ignore="Suspicious0dp" />
+
+
+    </LinearLayout>
+
+
+
+
